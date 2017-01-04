@@ -66,3 +66,6 @@ a:hover {
 .linkFolder:hover {
   color: rgb(245, 141, 39);
 }
+input {
+  display: none;
+}
