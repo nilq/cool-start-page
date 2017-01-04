@@ -6,6 +6,12 @@ var cursor     = getE("cursor");
 var searchValue = "";
 var typing = false;
 
+setInterval(function() {
+	if (typing) cursor.style.display = "inline";
+	else cursor.style.display = cursor.style.display == "none" ? cursor.style.display = "inline" : cursor.style.display = "none";
+}, CURSOR_BLINK_TIME);
+
+
 document.body.addEventListener("keydown", function(e) {
 	typing = true;
 	var keyCode = e.key;
@@ -28,8 +34,3 @@ document.body.addEventListener("keyup", function(e) {
 function getE(name) {
 	return document.getElementsById(name);
 }
-
-setInterval(function() {
-	if (typing) cursor.style.display = "inline";
-	else cursor.style.display = cursor.style.display == "none" ? cursor.style.display = "inline" : cursor.style.display = "none";
-}, CURSOR_BLINK_TIME);
