@@ -1,5 +1,5 @@
 html {
-  background-color: #e4e4e4;
+  background-color: rgb(228, 228, 228);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,7 +7,7 @@ html {
   font-family: monospace;
 }
 body {
-  color: #FFFFFF;
+  color: rgb(255, 255, 255);
   font-size: 0.85em;
 }
 span {
@@ -32,7 +32,7 @@ span {
   padding: 10px;
 }
 .searchBox {
-  background-color: #FFB6C1;
+  background-color: rgb(255, 182, 193);
   margin: 4px;
   padding: 8px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -45,7 +45,7 @@ span {
 .bookmarkContainer {
   -webkit-box-flex: 1;
   -moz-box-flex: 1;
-  background-color: #FFB6C1;
+  background-color: rgb(255, 182, 193);
   margin: 4px;
   padding: 8px;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
@@ -53,16 +53,16 @@ span {
 a, a:visited {
   display: block;
   padding-top: 2px;
-  color: #667DAA;
+  color: rgb(102,125,170);
   font-weight: bold;
   text-decoration: none;
 }
 a:hover {
-  color: #22D7F9;
+  color: rgb(34, 215, 249);
 }
 .linkFolder {
-  color: #C16000;
+  color: rgb(193, 96, 0);
 }
 .linkFolder:hover {
-  color: #F58D27;
+  color: rgb(245, 141, 39);
 }
