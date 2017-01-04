@@ -11,7 +11,6 @@ Features:
 
 TODO:
   - maybe some console commands.
-  - maybe border shadows.
   - make nice colors.
   - load links from file 'urls.txt'
 
