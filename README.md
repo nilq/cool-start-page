@@ -15,5 +15,4 @@ TODO:
   - load links from file 'urls.txt'
 
 
-Idea and some code from: https://github.com/haothitran/launch
-Instead of the original input box, it has a cool DOM terminal console.
+Idea and some code from: https://github.com/haothitran/launch (instead of the original input box, it has a cool DOM terminal console).
