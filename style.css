@@ -23,7 +23,7 @@ span {
 }
 .container {
   position: absolute;
-  top: 20%;
+  top: 18%;
   left: 0;
   right: 0;
   width: 650px;
@@ -35,7 +35,7 @@ span {
   background-color: #FFB6C1;
   margin: 4px;
   padding: 8px;
-  border: 1px solid #000000;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 .linksRow {
   display: -moz-box;
@@ -48,7 +48,7 @@ span {
   background-color: #FFB6C1;
   margin: 4px;
   padding: 8px;
-  border: 1px solid #000000;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
 a, a:visited {
   display: block;
@@ -59,4 +59,10 @@ a, a:visited {
 }
 a:hover {
   color: #22D7F9;
+}
+.linkFolder {
+  color: #C16000;
+}
+.linkFolder:hover {
+  color: #F58D27;
 }
