@@ -30,9 +30,6 @@ function getE(name) {
 }
 
 setInterval(function() {
-	if (typing) {
-		cursor.style.display = "inline";
-	} else {
-		cursor.style.display = cursor.style.display == "none" ? cursor.style.display = "inline" : cursor.style.display = "none";
-	}
+	if (typing) cursor.style.display = "inline";
+	else cursor.style.display = cursor.style.display == "none" ? cursor.style.display = "inline" : cursor.style.display = "none";
 }, CURSOR_BLINK_TIME);
