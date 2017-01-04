@@ -1,5 +1,5 @@
 var searchText = getE("searchText");
-var cursor 	   = getE("cursor");
+var cursor     = getE("cursor");
 
 var searchValue = "";
 var typing = false;
