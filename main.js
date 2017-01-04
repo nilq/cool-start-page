@@ -32,5 +32,5 @@ document.body.addEventListener("keyup", function(e) {
 });
 
 function getE(name) {
-	return document.getElementsById(name);
+	return document.getElementById(name);
 }
