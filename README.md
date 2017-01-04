@@ -7,6 +7,7 @@ A terminal-themed startup page for Browsers (only tested on Chrome).
 TODO:
   - type of link designed to open multiple windows by clicking single link.
   - maybe some console commands.
+  - maybe border shadows.
   - make nice colors.
 
 
