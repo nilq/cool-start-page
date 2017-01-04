@@ -1,1 +1,62 @@
-
+html {
+  background-color: #e4e4e4;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: monospace;
+}
+body {
+  color: #FFFFFF;
+  font-size: 0.85em;
+}
+span {
+  display: inline;
+}
+.welcomeText {
+  display: block;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 40px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.container {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  width: 650px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+}
+.searchBox {
+  background-color: #FFB6C1;
+  margin: 4px;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+.linksRow {
+  display: -moz-box;
+  display: -webkit-box;
+  width: 100%;
+}
+.bookmarkContainer {
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  background-color: #FFB6C1;
+  margin: 4px;
+  padding: 8px;
+  border: 1px solid #000000;
+}
+a, a:visited {
+  display: block;
+  padding-top: 2px;
+  color: #667DAA;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover {
+  color: #22D7F9;
+}
