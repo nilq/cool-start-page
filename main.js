@@ -1,3 +1,5 @@
+var CURSOR_BLINK_TIME = 600;
+
 var searchText = getE("searchText");
 var cursor     = getE("cursor");
 
@@ -33,4 +35,4 @@ setInterval(function() {
 	} else {
 		cursor.style.display = cursor.style.display == "none" ? cursor.style.display = "inline" : cursor.style.display = "none";
 	}
-}, 600);
+}, CURSOR_BLINK_TIME);
