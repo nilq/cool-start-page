@@ -7,7 +7,7 @@ A terminal-themed startup page for browsers (only tested on Chrome).
 Features:
  - a neat DOM terminal console for google search.
  - pink
- - "folder link", a link that will open multiple links at once. (enable pop-ups to work tho).
+ - "folder link", a link that will open multiple links at once. (enable pop-ups to work tho) - also doesnt work for multiple folder links (fixing).
 
 TODO:
   - maybe some console commands.
